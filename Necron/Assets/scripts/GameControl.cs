@@ -102,6 +102,8 @@ public class GameControl : MonoBehaviour {
             if (player1StartWaypoint == 5 || player1StartWaypoint == 27 || player1StartWaypoint == 49 || player1StartWaypoint == 50)
             {
                 whiteText.gameObject.SetActive(true);
+                player1.GetComponent<FollowThePath>().moveAllowed = true;
+                player2.GetComponent<FollowThePath>().moveAllowed = false;
             }
             if (player1StartWaypoint == 6 || player1StartWaypoint == 28 || player1StartWaypoint == 51)
             {
@@ -118,6 +120,8 @@ public class GameControl : MonoBehaviour {
             if (player1StartWaypoint == 9 || player1StartWaypoint == 31 || player1StartWaypoint == 54)
             {
                 whiteText.gameObject.SetActive(true);
+                player1.GetComponent<FollowThePath>().moveAllowed = true;
+                player2.GetComponent<FollowThePath>().moveAllowed = false;
             }
             if (player1StartWaypoint == 10 || player1StartWaypoint == 32 || player1StartWaypoint == 55)
             {
@@ -134,6 +138,8 @@ public class GameControl : MonoBehaviour {
             if (player1StartWaypoint == 14 || player1StartWaypoint == 36 || player1StartWaypoint == 59)
             {
                 whiteText.gameObject.SetActive(true);
+                player1.GetComponent<FollowThePath>().moveAllowed = true;
+                player2.GetComponent<FollowThePath>().moveAllowed = false;
             }
             if (player1StartWaypoint == 15 || player1StartWaypoint == 37 || player1StartWaypoint == 60)
             {
@@ -150,6 +156,8 @@ public class GameControl : MonoBehaviour {
             if (player1StartWaypoint == 18 || player1StartWaypoint == 40 || player1StartWaypoint == 63)
             {
                 whiteText.gameObject.SetActive(true);
+                player1.GetComponent<FollowThePath>().moveAllowed = true;
+                player2.GetComponent<FollowThePath>().moveAllowed = false;
             }
             if (player1StartWaypoint == 19 || player1StartWaypoint == 41 || player1StartWaypoint == 64)
             {
@@ -205,6 +213,8 @@ public class GameControl : MonoBehaviour {
             if (player2StartWaypoint == 5 || player2StartWaypoint == 27 || player2StartWaypoint == 49 || player2StartWaypoint == 50)
             {
                 whiteText.gameObject.SetActive(true);
+                player1.GetComponent<FollowThePath>().moveAllowed = false;
+                player2.GetComponent<FollowThePath>().moveAllowed = true;
             }
             if (player2StartWaypoint == 6 || player2StartWaypoint == 28 || player2StartWaypoint == 51)
             {
@@ -221,6 +231,8 @@ public class GameControl : MonoBehaviour {
             if (player2StartWaypoint == 9 || player2StartWaypoint == 31 || player2StartWaypoint == 54)
             {
                 whiteText.gameObject.SetActive(true);
+                player1.GetComponent<FollowThePath>().moveAllowed = false;
+                player2.GetComponent<FollowThePath>().moveAllowed = true;
             }
             if (player2StartWaypoint == 10 || player2StartWaypoint == 32 || player2StartWaypoint == 55)
             {
@@ -237,6 +249,8 @@ public class GameControl : MonoBehaviour {
             if (player2StartWaypoint == 14 || player2StartWaypoint == 36 || player2StartWaypoint == 59)
             {
                 whiteText.gameObject.SetActive(true);
+                player1.GetComponent<FollowThePath>().moveAllowed = false;
+                player2.GetComponent<FollowThePath>().moveAllowed = true;
             }
             if (player2StartWaypoint == 15 || player2StartWaypoint == 37 || player2StartWaypoint == 60)
             {
@@ -253,6 +267,8 @@ public class GameControl : MonoBehaviour {
             if (player2StartWaypoint == 18 || player2StartWaypoint == 40 || player2StartWaypoint == 63)
             {
                 whiteText.gameObject.SetActive(true);
+                player1.GetComponent<FollowThePath>().moveAllowed = false;
+                player2.GetComponent<FollowThePath>().moveAllowed = true;
             }
             if (player2StartWaypoint == 19 || player2StartWaypoint == 41 || player2StartWaypoint == 64)
             {
